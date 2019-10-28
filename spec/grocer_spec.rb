@@ -307,7 +307,6 @@ describe "Grocer" do
         expect(total_cost).to eq(4.90)
       end
     end
-
     describe "discount of ten percent" do
       it "applies 10% discount if cart over $100" do
         beer = find_item('BEER')
@@ -317,3 +316,4 @@ describe "Grocer" do
     end
   end
 end
+
